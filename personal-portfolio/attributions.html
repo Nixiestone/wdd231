@@ -1,0 +1,75 @@
+<!-- attributions.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Personal Tech Journey Portfolio - Home" >
+    <meta name="author" content="Blessing Omoregie" >
+    <meta property="og:title" content=" Omoregie Blessing Tech Journey Portfolio" >
+    <meta property="og:description" content="Explore my web development journey, projects, and skills." >
+    <meta property="og:image" content="images/portfolio-og.webp" >
+    <title>Attributions - Omoregie Blessing</title>
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Attributions</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>External Resources</h2>
+        <ul>
+          <li>
+            Unsplash API for background images —
+            <a href="https://unsplash.com/developers" target="_blank"
+              >unsplash.com</a
+            >
+          </li>
+          <li>
+            Open-Meteo Weather API —
+            <a href="https://open-meteo.com/" target="_blank">open-meteo.com</a>
+          </li>
+          <li>
+            Icons and emojis used from
+            <a href="https://emojipedia.org" target="_blank">Emojipedia</a>
+          </li>
+          <li>
+            Responsive layout patterns based on
+            <a
+              href="https://css-tricks.com/snippets/css/complete-guide-grid/"
+              target="_blank"
+              >CSS Tricks Grid Guide</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Omoregie Blessing. Built with HTML, CSS,
+        JS, and 💙.
+      </p>
+      <div class="footer-meta">
+        <p id="datetime"></p>
+        <p id="weather"></p>
+        <p id="last-visited"></p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

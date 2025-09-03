@@ -1,0 +1,83 @@
+@media screen and (min-width: 769px) {
+  /* Header */
+  .header-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin: 0 1rem;
+  }
+
+  /* View Toggle */
+  .view-toggle {
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Member Grid View */
+  .grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .member-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  /* Member List View */
+  .list-view .member-list-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .member-list-item img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+
+  /* Typography enhancements */
+  .member-card h3,
+  .member-list-item h3 {
+    font-size: 1.25rem;
+  }
+
+  .member-card p,
+  .member-list-item p {
+    font-size: 1rem;
+  }
+
+  /* Main content layout */
+  main {
+    padding: 2rem;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 1rem;
+    padding: 2rem;
+  }
+}

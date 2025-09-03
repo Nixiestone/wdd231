@@ -1,0 +1,20 @@
+[
+  {
+    "name": "XYZ Manufacturing",
+    "membership": "gold",
+    "image": "images/xyz-manufacturing.jpg",
+    "description": "A leading manufacturer specializing in sustainable products."
+  },
+  {
+    "name": "ABC Tech Solutions",
+    "membership": "silver",
+    "image": "images/abc-tech-solutions.jpg",
+    "description": "Innovative software solutions."
+  },
+  {
+    "name": "Global Traders",
+    "membership": "gold",
+    "image": "images/global-traders.jpg",
+    "description": "International trade experts."
+  }
+]

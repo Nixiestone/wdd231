@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="description" content="Explore my web development journey and contact me via this page." >
+<meta name="author" content="Blessing Omoregie" >
+<meta property="og:title" content="Contact – Blessing Omoregie Portfolio" >
+<meta property="og:description" content="Get in touch with me about my projects and portfolio." >
+<meta property="og:image" content="images/portfolio-og.webp" >
+  <title>Projects - Personal Portfolio</title>
+  <link rel="stylesheet" href="styles/base.css" >
+  <link rel="stylesheet" href="styles/larger.css" >
+  <script type="module" src="scripts/projects.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <!-- Hamburger button -->
+    <button id="menu-toggle" aria-label="Toggle Menu">
+  ☰
+    </button>
+
+    <!-- Navigation Menu -->
+    <nav id="menu" class="hidden">
+    <!-- nav links go here -->
+    </nav>
+
+        <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="project-list" class="project-grid">
+      <h2>project List</h2>
+      <!-- Project cards inserted here dynamically -->
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Blessing Omoregie. Built with HTML, CSS, JS, and 💙.</p>
+  <div class="footer-meta">
+    <p id="datetime"></p>
+    <p id="weather"></p>
+    <p id="last-visited"></p>
+  </div>
+</footer>
+
+  <dialog id="projectModal">
+    <div id="modalContent"></div>
+  <form method="dialog">
+    <h2 id="modalTitle">Project Title</h2>
+    <p id="modalDescription">Project description goes here.</p>
+    <button id="closeModal">Close</button>
+  </form>
+</dialog>
+
+</body>
+</html>

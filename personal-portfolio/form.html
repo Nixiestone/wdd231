@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Personal Tech Journey Portfolio - Home" >
+    <meta name="author" content="Omoregie Blessing" >
+    <meta property="og:title" content=" Omoregie Blessing Tech Journey Portfolio" >
+    <meta property="og:description" content="Explore my web development journey, projects, and skills." >
+    <meta property="og:image" content="images/portfolio-og.webp" >
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="styles/base.css" >
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Thank You!</h1>
+    </header>
+
+    <main>
+      <h1>Form Submission</h1>
+      <p><strong>Name:</strong> <span id="name"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Subject:</strong> <span id="subject"></span></p>
+      <p><strong>Message:</strong> <span id="message"></span></p>
+      <p>Your message has been sent. Here's what we received:</p>
+      <ul id="formDataList"></ul>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Omoregie Blessing. Built with HTML, CSS,
+        JS, and 💙.
+      </p>
+      <div class="footer-meta">
+        <p id="datetime"></p>
+        <p id="weather"></p>
+        <p id="last-visited"></p>
+      </div>
+    </footer>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const list = document.getElementById("formDataList");
+
+      for (const [key, value] of params) {
+        const item = document.createElement("li");
+        item.textContent = `${key}: ${value}`;
+        list.appendChild(item);
+      }
+
+      // Apply preferred theme
+      const theme = localStorage.getItem("preferredTheme");
+      if (theme === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+    </script>
+  </body>
+</html>

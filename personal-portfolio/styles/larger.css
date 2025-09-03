@@ -1,0 +1,66 @@
+/* styles/larger.css */
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav #menu-toggle {
+    display: none; /* Hide hamburger on larger screens */
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    background: none;
+    position: static;
+    flex-direction: row;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 100%;
+    min-height: 380px;
+  }
+
+  dialog#projectModal {
+    max-width: 600px;
+    padding: 2rem;
+  }
+
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  form .full-width {
+    grid-column: span 2;
+  }
+
+  footer {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+}

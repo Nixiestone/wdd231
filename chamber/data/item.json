@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Benin Moat",
+    "address": "Ring Road, Benin City, Edo State, Nigeria",
+    "description": "An ancient earthwork surrounding the old Benin Kingdom, one of the largest man-made moats in the world.",
+    "photo": "images/benin-moat.webp"
+  },
+  {
+    "name": "Oba’s Palace",
+    "address": "Ring Road, Benin City, Edo State, Nigeria",
+    "description": "The historic royal palace of the Oba of Benin, rich in cultural heritage and traditional architecture.",
+    "photo": "images/oba-palace.jpeg"
+  },
+  {
+    "name": "Benin National Museum",
+    "address": "Museum Road, Benin City, Edo State, Nigeria",
+    "description": "Museum showcasing Benin artifacts, bronze works, and historical exhibits from the Benin Kingdom.",
+    "photo": "images/benin-national-museum.jpeg"
+  },
+  {
+    "name": "Igun Street",
+    "address": "Igun Street, Benin City, Edo State, Nigeria",
+    "description": "Famous street known for traditional bronze casting and local artisan workshops.",
+    "photo": "images/igun-street.jpeg"
+  },
+  {
+    "name": "Okomu National Park",
+    "address": "Okomu, Edo State, Nigeria (near Benin City)",
+    "description": "A protected rainforest reserve home to diverse wildlife and beautiful hiking trails.",
+    "photo": "images/okomu-national-park.jpeg"
+  },
+  {
+    "name": "University of Benin",
+    "address": "Ugbowo, Benin City, Edo State, Nigeria",
+    "description": "One of Nigeria’s top universities, offering academic excellence and vibrant campus life.",
+    "photo": "images/uniben.jpeg"
+  },
+  {
+    "name": "Benin City Market",
+    "address": "New Benin Market, Benin City, Edo State, Nigeria",
+    "description": "A bustling market with a wide variety of goods including textiles, crafts, and fresh produce.",
+    "photo": "images/benin-city-market.jpeg"
+  },
+  {
+    "name": "Akenzua Cultural Centre",
+    "address": "Sapele Road, Benin City, Edo State, Nigeria",
+    "description": "Cultural center dedicated to preserving and promoting Benin arts, crafts, and traditions.",
+    "photo": "images/akenzua-cultural-centre.jpeg"
+  }
+]

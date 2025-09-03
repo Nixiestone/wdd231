@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>WDD 231 - Home</title>
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/small.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+  </head>
+  <body>
+    <header>
+      <img src="images/blessing.jpg" alt="Photo of Blessing" >
+      <span>Omoregie Blessing</span>
+      <button
+        id="hamburger"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+      >
+        <!-- Hamburger icon here -->
+      </button>
+      <button id="darkModeToggle">🌙</button>
+    </header>
+
+    <nav class="navigation">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="chamber/index.html">Chamber</a></li>
+        <li><a href="personal-portfolio/index.html">Personal-Portfolio</a></li>
+        <li>
+          <a href="https://github.com/Nixiestone" target="_blank"
+            >GitHub Profile</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/nixie001"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Side-by-side layout for coursework and city -->
+      <section class="course-layout">
+        <h2 class="visually-hidden">Coursework and City Info</h2>
+        <section id="course-work" class="course-work">
+          <h3 class="visually-hidden">Course Work</h3>
+          <ul>
+            <li><a href="lesson1/index.html">Lesson 1: HTML Basics</a></li>
+            <li><a href="lesson2/index.html">Lesson 2: CSS Fundamentals</a></li>
+            <li>
+              <a href="lesson3/index.html">Lesson 3: JavaScript Basics</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="benin" class="city-info">
+          <h2>Benin City, Nigeria</h2>
+          <img src="images/night.jpeg" alt="Benin City" >
+          <p>
+            A major city in southern Nigeria known for its rich history and
+            culture.
+          </p>
+        </section>
+      </section>
+
+      <!-- Certificate Section: BELOW the side-by-side layout -->
+      <section class="certificate">
+        <h2 class="blue-highlight">Web and Computer Programming Certificate</h2>
+        <div class="filters">
+          <button data-filter="all" aria-label="Show all courses">
+            All Courses
+          </button>
+          <button data-filter="WDD" aria-label="Show WDD courses">
+            WDD Courses
+          </button>
+          <button data-filter="CSE" aria-label="Show CSE courses">
+            CSE Courses
+          </button>
+        </div>
+        <div class="course-list" role="list" aria-labelledby="courseListTitle">
+          <h2 id="courseListTitle" class="visually-hidden">Course List</h2>
+          <!-- Dynamically generated courses will be inserted here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Blessing Omoregie. All rights
+        reserved.
+      </p>
+      <p>Last modified: <span id="lastModified"></span></p>
+      <p id="creditCount"></p>
+    </footer>
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <!-- Only on the page that needs course cards -->
+  </body>
+</html>

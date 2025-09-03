@@ -1,0 +1,86 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Personal Tech Journey Portfolio - Home" >
+    <meta name="author" content="Omoregie Blessing" >
+    <meta property="og:title" content=" Omoregie Blessing Tech Journey Portfolio" >
+    <meta property="og:description" content="Explore my web development journey, projects, and skills." >
+    <meta property="og:image" content="images/portfolio-og.webp" >
+    <title>Contact - Omoregie Blessing</title>
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <link rel="stylesheet" href="styles/form.css" >
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <!-- Hamburger button -->
+      <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+      <!-- Navigation Menu -->
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+              🌓
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Get in Touch</h2>
+        <p>
+          Email me at
+          <a href="mailto:omoregieblessing52@gmail.com">Email</a>
+        </p>
+      </section>
+      <form action="form.html" method="get" novalidate>
+        <label>
+          Full Name:
+          <input type="text" name="fullname" required >
+        </label>
+
+        <label>
+          Email Address:
+          <input type="email" name="email" required >
+        </label>
+
+        <label class="full-width">
+          Subject:
+          <input type="text" name="subject" required >
+        </label>
+
+        <label class="full-width">
+          Message:
+          <textarea name="message" required></textarea>
+        </label>
+
+        <button class="full-width" type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Omoregie Blessing. Built with
+        HTML, CSS, JS, and 💙.
+      </p>
+      <div class="footer-meta">
+        <p id="datetime"></p>
+        <p id="last-visited"></p>
+        <p><a href="attributions.html">Attributions</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "NaijaTech Innovators",
+      "logo": "https://placehold.co/150x100?text=NaijaTech",
+      "address": "12 Allen Avenue, Ikeja, Lagos",
+      "phone": "+234 701 234 5678",
+      "website": "https://naijatech.ng",
+      "membershipLevel": 3,
+      "description": "Nigeria's leading provider of digital transformation services."
+    },
+    {
+      "name": "Green Farm Produce Ltd.",
+      "logo": "https://placehold.co/150x100?text=Green%20Farm",
+      "address": "45 Bida Road, Minna, Niger State",
+      "phone": "+234 803 567 1234",
+      "website": "https://greenfarm.ng",
+      "membershipLevel": 2,
+      "description": "Organic and sustainable agricultural products for local and export markets."
+    },
+    {
+      "name": "Lagos Creative Studios",
+      "logo": "https://placehold.co/150x100?text=Lagos%20Studios",
+      "address": "18 Admiralty Way, Lekki Phase 1, Lagos",
+      "phone": "+234 809 888 1122",
+      "website": "https://lagoscreatives.ng",
+      "membershipLevel": 1,
+      "description": "Home to Nigeria’s fastest-growing community of digital artists and designers."
+    },
+    {
+      "name": "Benin Auto Works",
+      "logo": "https://placehold.co/150x100?text=Benin%20Auto",
+      "address": "10 Sapele Road, Benin City, Edo State",
+      "phone": "+234 802 111 2233",
+      "website": "https://beninauto.ng",
+      "membershipLevel": 2,
+      "description": "Reliable automotive repair and maintenance services since 1998."
+    },
+    {
+      "name": "Kano Textile Hub",
+      "logo": "https://placehold.co/150x100?text=Kano%20Textile",
+      "address": "7 Wapa Road, Kano City, Kano",
+      "phone": "+234 816 444 5566",
+      "website": "https://kanotextile.ng",
+      "membershipLevel": 3,
+      "description": "Reviving Nigeria's rich textile heritage through innovation and training."
+    },
+    {
+      "name": "Port Harcourt Builders Ltd.",
+      "logo": "https://placehold.co/150x100?text=PHC%20Builders",
+      "address": "22 Old Aba Road, Port Harcourt, Rivers State",
+      "phone": "+234 705 222 3344",
+      "website": "https://phcbuilders.ng",
+      "membershipLevel": 1,
+      "description": "Top-rated construction and real estate development company in the Niger Delta."
+    },
+    {
+      "name": "Abuja Solar Energy Co.",
+      "logo": "https://placehold.co/150x100?text=Abuja%20Solar",
+      "address": "Plot 9 Gwarinpa Estate, Abuja",
+      "phone": "+234 812 333 4455",
+      "website": "https://abuja-solar.ng",
+      "membershipLevel": 3,
+      "description": "Providing clean and affordable solar energy solutions across Nigeria."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Benin City Chamber of Commerce - Directory</title>
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/directory.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" >
+
+    <meta
+      name="description"
+      content="Browse through the Benin City Chamber of Commerce business directory to discover local businesses and services."
+    >
+    <meta name="author" content="Blessing Omoregie" >
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:title"
+      content="Benin City Chamber of Commerce - Directory"
+    >
+    <meta property="og:type" content="website" >
+    <meta
+      property="og:image"
+      content="https://yourwebsite.com/images/directory-hero.jpg"
+    >
+    <meta property="og:url" content="https://yourwebsite.com/directory.html" >
+    <meta name="robots" content="index, follow" >
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Benin City Chamber of Commerce</h1>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+
+        <!-- Dark Mode Toggle Button -->
+        <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+
+      <!-- Navigation Bar -->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html" aria-label="Go to the homepage">Home</a></li>
+          <li>
+            <a
+              href="directory.html"
+              class="active"
+              aria-current="page"
+              aria-label="View the business directory"
+              >Directory</a
+            >
+          </li>
+
+          <li>
+            <a href="discover.html" aria-label="Discover Benin City"
+              >Discover</a
+            >
+          </li>
+          <li><a href="join.html" aria-label="Join the Chamber">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Image Section with Call to Action -->
+    <section class="hero">
+      <img
+        src="images/directory-hero.jpg"
+        alt="Business Directory Overview"
+        loading="lazy"
+        width="1200"
+        height="400"
+      >
+      <div class="cta">
+        <h2>Discover Businesses in Our Chamber</h2>
+        <p>
+          Explore a wide range of businesses, connect with peers, and find
+          services that can help you grow your business.
+        </p>
+        <a
+          href="#directory"
+          class="cta-button"
+          aria-label="View business directory"
+          >View Directory</a
+        >
+      </div>
+    </section>
+
+    <main>
+      <!-- Business Directory Section -->
+      <section>
+        <h2 id="businessDirectory">
+          Welcome to the Benin City Chamber of Commerce Business Directory
+        </h2>
+        <p>
+          Our directory showcases a diverse range of businesses, from local
+          startups to well-established companies. Whether you're looking to
+          connect with other businesses or find services that can support your
+          growth, this directory is a valuable resource for all our members.
+        </p>
+        <p>
+          You can view the directory in either a grid or list format to suit
+          your preference. Browse through the businesses by category or
+          location, and find the perfect match for your needs.
+        </p>
+
+        <!-- View Toggle Section -->
+        <div class="view-toggle">
+          <button id="gridView" aria-label="Switch to Grid View" class="active">
+            Grid View
+          </button>
+          <button id="listView" aria-label="Switch to List View">
+            List View
+          </button>
+        </div>
+
+        <!-- Business Directory Content -->
+        <section
+          id="directory"
+          class="grid"
+          aria-labelledby="businessDirectory"
+        >
+          <!-- Dynamically populated content goes here -->
+          <h3 id="directoryHeading" class="visually-hidden">
+            Business Directory Content
+          </h3>
+          <div class="loading">Loading business directory...</div>
+        </section>
+      </section>
+    </main>
+
+    <!-- Current Event Section (Highlight Key Events) -->
+    <section class="current-events">
+      <h2>Upcoming Chamber Events</h2>
+      <p>Stay tuned for upcoming events and networking opportunities!</p>
+      <ul>
+        <li>Annual Business Conference - July 2025</li>
+        <li>Chamber Networking Mixer - August 2025</li>
+      </ul>
+    </section>
+
+    <!-- Dynamic Weather Section -->
+    <div id="weather-info" aria-live="polite"></div>
+
+    <!-- Company Spotlight Section -->
+    <section class="company-spotlight">
+      <h2>Company Spotlight</h2>
+      <p>
+        Each month, we spotlight a Chamber member business. This month's
+        featured company is <strong>XYZ Innovations</strong>, a leading tech
+        startup in the region.
+      </p>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>123 Business Avenue, Benin City</p>
+          <p>Phone: +234 123 456 7890</p>
+          <p>Email: info@beninchamber.org</p>
+        </div>
+        <div class="dev-info">
+          <p>
+            &copy; <span id="current-year"></span> Benin City Chamber of
+            Commerce
+          </p>
+          <p><span id="Blessing Omoregie">Blessing Omoregie</span> | WDD 231</p>
+          <p>Last Updated: <span id="last-modified"></span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/darkmode-menu.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+  </body>
+</html>

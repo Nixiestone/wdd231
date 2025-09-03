@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Discover the attractions and features of Benin City by the Chamber of Commerce."
+    >
+    <meta name="author" content="Blessing Omoregie" >
+    <title>Discover Benin City | Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/styles.css" >
+    <link
+      rel="stylesheet"
+      href="styles/medium.css"
+      media="(min-width: 641px)"
+    >
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="(min-width: 1025px)"
+    >
+    <script defer src="scripts/discover.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <button id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+
+        <h1 class="site-title">Benin City Chamber of Commerce</h1>
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li>
+              <a href="discover.html" class="active" aria-current="page"
+                >Discover</a
+              >
+            </li>
+            <li><a href="directory.html" class="nav-link">Directory</a></li>
+            <li><a href="join.html" class="nav-link">Join us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="discover-grid">
+      <section class="sidebar" id="visit-message">
+        <h2>Visitor Info</h2>
+
+        <!-- Last visit message inserted here via JS -->
+      </section>
+
+      <section class="gallery" id="card-container">
+        <h2>Gallery</h2>
+        <!-- 8 cards generated dynamically here -->
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2025 Benin City Chamber of Commerce. All rights reserved.</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.getElementById("last-modified").textContent =
+        document.lastModified;
+    </script>
+  </body>
+</html>

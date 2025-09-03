@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Weather App",
+    "description": "Displays real-time weather using Open-Meteo API.",
+    "image": "https://source.unsplash.com/600x400/?weather,clouds",
+    "link": "https://your-weather-app-link.com",
+    "tools": ["HTML", "CSS", "JavaScript", "API"]
+  },
+  {
+    "name": "Chamber Site",
+    "description": "Local chamber of commerce website project.",
+    "image": "https://source.unsplash.com/600x400/?commerce,building",
+    "link": "https://your-chamber-site.com",
+    "tools": ["HTML", "CSS", "JS", "localStorage"]
+  },
+  {
+    "name": "ColorCast Weather",
+    "description": "Colorful weather interface with Unsplash integration.",
+    "image": "https://source.unsplash.com/600x400/?weather,colorful",
+    "link": "https://el-benson.github.io/colorful-weather-app/",
+    "tools": ["HTML", "CSS", "JavaScript Modules"]
+  },
+  {
+    "name": "Programming With Class",
+    "description": "An OOP project showcasing encapsulation and polymorphism in C#.",
+    "image": "https://source.unsplash.com/600x400/?code,csharp",
+    "link": "projects/programming-class.html",
+    "tools": ["C#", ".NET", "OOP"]
+  },
+  {
+    "name": "Web Fundamentals Project",
+    "description": "A responsive website built using semantic HTML and web standards.",
+    "image": "https://source.unsplash.com/600x400/?html,code",
+    "link": "projects/web-fundamentals.html",
+    "tools": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "name": "Add to Cart App",
+    "description": "E-commerce frontend with cart, filters, and localStorage.",
+    "image": "https://source.unsplash.com/600x400/?shopping,cart",
+    "link": "projects/frontend-cart.html",
+    "tools": ["JavaScript", "HTML", "CSS", "localStorage"]
+  },
+  {
+    "name": "Movie Ad Manager (In Progress)",
+    "description": "App for managing and displaying movie promotional content.",
+    "image": "https://source.unsplash.com/600x400/?cinema,movie",
+    "link": "projects/movie-ads.html",
+    "tools": ["React", "API", "CSS"]
+  },
+  {
+    "name": "Study Platform for Africa",
+    "description": "Online learning platform with video lessons and certificates.",
+    "image": "https://source.unsplash.com/600x400/?online,learning",
+    "link": "projects/africa-study.html",
+    "tools": ["HTML", "CSS", "JavaScript", "Firebase"]
+  },
+  {
+    "name": "Online Market App",
+    "description": "A marketplace to connect buyers and sellers with listings.",
+    "image": "https://source.unsplash.com/600x400/?marketplace,ecommerce",
+    "link": "projects/market-app.html",
+    "tools": ["Vue", "Node.js", "MongoDB"]
+  },
+  {
+    "name": "AI Companion App (In Progress)",
+    "description": "AI assistant to manage tasks and help users stay productive.",
+    "image": "https://source.unsplash.com/600x400/?ai,assistant",
+    "link": "projects/ai-app.html",
+    "tools": ["Python", "FastAPI", "OpenAI API"]
+  },
+  {
+    "name": "ColorCast Weather App",
+    "description": "Vibrant weather app using Open-Meteo and Unsplash APIs.",
+    "image": "https://source.unsplash.com/600x400/?weather,forecast",
+    "link": "projects/colorcast.html",
+    "tools": ["JavaScript", "Open-Meteo API", "Unsplash API"]
+  },
+  {
+    "name": "Chamber of Commerce Site",
+    "description": "Multi-page site with directory, events, and discover features.",
+    "image": "https://source.unsplash.com/600x400/?business,networking",
+    "link": "projects/chamber-site.html",
+    "tools": ["HTML", "CSS", "JSON", "JavaScript"]
+  },
+  {
+    "name": "Responsive Grid Portfolio",
+    "description": "Portfolio project using CSS Grid and Flexbox.",
+    "image": "https://source.unsplash.com/600x400/?portfolio,design",
+    "link": "projects/portfolio-grid.html",
+    "tools": ["HTML", "CSS Grid", "Flexbox"]
+  },
+  {
+    "name": "Form Validation App",
+    "description": "Contact form using JavaScript validation and URLSearchParams.",
+    "image": "https://source.unsplash.com/600x400/?form,contact",
+    "link": "projects/form-validation.html",
+    "tools": ["HTML", "JavaScript", "Form Validation"]
+  },
+  {
+    "name": "Dark Mode Homepage",
+    "description": "Homepage with dark mode toggle and custom CSS theming.",
+    "image": "https://source.unsplash.com/600x400/?dark,website",
+    "link": "projects/dark-homepage.html",
+    "tools": ["HTML", "CSS Variables", "JavaScript"]
+  }
+]

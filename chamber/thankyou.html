@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Benin City Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/larger.css" >
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" >
+    <meta
+      name="description"
+      content="Benin City Chamber of Commerce - Supporting local businesses and economic growth."
+    >
+    <meta property="og:title" content="Benin City Chamber of Commerce" >
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="images/og-image.jpg" >
+    <meta property="og:url" content="https://yourwebsite.com" >
+    <meta name="robots" content="index, follow" >
+    <script defer src="scripts/darkmode-menu.js"></script>
+    <!-- Link to the new script for dark mode and hamburger menu -->
+  </head>
+
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <div class="header-container">
+        <h1>Benin City Chamber of Commerce</h1>
+        <!-- Hamburger Menu Button (only visible on mobile) -->
+        <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+        <nav>
+          <ul id="nav-list">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">join us</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="site-plan.html">Site Plan</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="activity-links">
+        <h2>Learning Activities</h2>
+        <p>
+          At the Benin City Chamber of Commerce, we offer various educational
+          resources and events to help local businesses grow. The following
+          activities are designed to empower business owners and entrepreneurs:
+        </p>
+        <ul id="activities-list">
+          <li>
+            <a href="activity1.html">Activity 1: Business Growth</a> - Learn
+            strategies for scaling your business and increasing revenue.
+          </li>
+          <li>
+            <a href="activity2.html">Activity 2: Networking Events</a> - Join
+            other professionals in the business community for valuable
+            networking opportunities.
+          </li>
+          <li>
+            <a href="activity3.html">Activity 3: Training Sessions</a> -
+            Participate in workshops designed to enhance your skills in areas
+            like marketing, finance, and customer service.
+          </li>
+        </ul>
+      </section>
+
+      <section class="hero">
+        <img
+          src="images/hero.jpg"
+          alt="Benin City Business District"
+          loading="lazy"
+        >
+        <div class="hero-text">
+          <h2>Empowering Local Businesses</h2>
+          <p>
+            Our mission is to provide local businesses with the resources and
+            support they need to thrive in a competitive marketplace. Whether
+            you're a new startup or an established business, we offer programs
+            and services to help you succeed.
+          </p>
+          <a href="join.html" class="cta-button" aria-label="Join the Chamber"
+            >Join the Chamber</a
+          >
+        </div>
+      </section>
+
+      <section class="events">
+        <h2>Upcoming Events</h2>
+        <p>
+          Stay updated with our latest business networking events and workshops.
+          Our events are designed to foster collaboration, provide insights into
+          industry trends, and offer a platform for local businesses to connect
+          with others in the community.
+        </p>
+        <ul>
+          <li>
+            <strong>Event 1:</strong> Annual Business Expo - April 15, 2025 - A
+            major event where local businesses showcase their products and
+            services.
+          </li>
+          <li>
+            <strong>Event 2:</strong> Monthly Networking - May 1, 2025 - Meet
+            and connect with other local business owners at our monthly
+            networking session.
+          </li>
+          <li>
+            <strong>Event 3:</strong> Workshop on Digital Marketing - May 10,
+            2025 - Learn about the latest trends and strategies in digital
+            marketing to help your business grow online.
+          </li>
+        </ul>
+      </section>
+
+      <section class="weather">
+        <h2>Benin City Weather</h2>
+        <!-- Add these inside your weather section -->
+        <div id="weather-info">Loading weather...</div>
+        <div id="forecast"></div>
+        <p>
+          This section provides the current weather updates for Benin City. It's
+          important to know the weather in order to plan for outdoor events or
+          activities, and we aim to keep you informed about the local climate
+          conditions.
+        </p>
+      </section>
+
+      <section class="spotlight">
+        <h2>Business Spotlights</h2>
+        <p>
+          Each month, we highlight a few local businesses that are making
+          significant strides in their industries. This is a way to showcase
+          successful enterprises and inspire others to achieve greatness in
+          their respective fields.
+        </p>
+        <div id="spotlight-container" class="spotlight-container">
+          <!-- Spotlight members will be dynamically inserted here -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        &copy; <span id="current-year"></span> Benin City Chamber of Commerce
+      </p>
+      <p>Last Updated: <span id="last-modified"></span></p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/links.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/sportlight.js" defer></script>
+  </body>
+</html>
