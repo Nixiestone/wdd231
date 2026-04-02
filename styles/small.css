@@ -86,8 +86,8 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background-color: #facc15;
-  color: black;
+  background-color: #eab308;
+  color: #111;
 }
 
 @media (max-width: 768px) {
@@ -321,4 +321,40 @@ footer .last-modified {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
- 
+/* Mobile navigation */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links.open {
+  display: flex;
+}
+#hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#hamburger.open {
+  transform: rotate(90deg);
+}
+nav a.active {
+  background-color: #facc15;
+  color: black;
+  font-weight: bold;
+}
+
+#hamburger {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+}
