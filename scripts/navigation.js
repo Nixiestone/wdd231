@@ -1,8 +1,9 @@
 const hamburger = document.querySelector("#hamburger");
-const navMenu = document.querySelector("nav ul");
+const navMenu = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", () => {
-  const isOpen = navMenu.classList.toggle("open");
-  hamburger.classList.toggle("open");
+  navMenu.classList.toggle("open");
+
+  const isOpen = navMenu.classList.contains("open");
   hamburger.setAttribute("aria-expanded", isOpen);
 });
